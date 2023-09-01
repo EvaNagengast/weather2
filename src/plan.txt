@@ -1,0 +1,33 @@
+added react
+added axios 
+added react animated icons
+added react-icons
+added bootstrap
+
+
+// react icons  https://react-icons.github.io/react-icons
+import { FaBeer } from 'react-icons/fa';
+ <h3> Lets go for a <FaBeer />? 
+
+
+//  react animated Icons
+import ReactAnimatedWeather from 'react-animated-weather';
+ 
+const defaults = {
+  icon: 'CLEAR_DAY',
+  color: 'goldenrod',
+  size: 512,
+  animate: true
+};
+
+  <ReactAnimatedWeather
+    icon={defaults.icon}
+    color={defaults.color}
+    size={defaults.size}
+    animate={defaults.animate}
+  />
+ 
+icon: Takes a string to display the corresponding icon out of the following
+
+CLEAR_DAY, CLEAR_NIGHT, PARTLY_CLOUDY_DAY, PARTLY_CLOUDY_NIGHT
+CLOUDY, RAIN, SLEET, SNOW, WIND, FOG
