@@ -1,8 +1,18 @@
 .App {
   text-align: center;
   margin: 50px;
-  border: 2px dotted red;
+  padding: 0px;
+  
+  background-image: url("./Weather/media/Michelangelo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid rgb(104, 56, 16) 25px;
+  border-top-color: rgb(179, 92, 22);
+  border-left-color: rgb(179, 92, 22);
 }
- 
 
-
+.container {height: 300px;
+  border: solid rgb(179, 92, 22) 20px;
+  border-top-color: rgb(104, 56, 16);
+  border-left-color: rgb(104, 56, 16);
+}
