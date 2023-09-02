@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import City from "./City";
 import Temp from "./Temp";
 import Icon from "./Icon";
+import Footer from "./Footer"
 
 import axios from "axios";
 
@@ -59,13 +60,13 @@ export default function Weatherapp() {
 
         <div className="text">text</div>
         <div className="forecast">forecast</div>
-        <div className="footer">footer</div>
+        <div className="footer"><Footer/></div>
       </div>
     );
   } else {
     return (
       <div>
-        <h2>Search your city</h2>
+        <h1>Search your city</h1>
         <div>{form}</div>
       </div>
     );

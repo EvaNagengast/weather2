@@ -8,35 +8,35 @@ export default function Icon(props) {
 const weatherIcons = {
   "01d": {
     icon: "CLEAR_DAY",
-    color: "goldenrod",
+    color: "yellow",
   },
   "01n": {
     icon: "CLEAR_NIGHT",
-    color: "orange",
+    color: "yellow",
   },
   "02d": {
     icon: "PARTLY_CLOUDY_DAY",
-    color: "lightgrey",
+    color: "yellow",
   },
   "02n": {
     icon: "PARTLY_CLOUDY_NIGHT",
-    color: "lightgrey",
+    color: "yellow",
   },
   "03d": {
     icon: "CLOUDY",
-    color: "grey",
+    color: "rgb(255, 246, 230)",
   },
   "03n": {
     icon: "CLOUDY",
-    color: "grey",
+    color: "rgb(255, 246, 230)",
   },
   "04d": {
     icon: "CLOUDY",
-    color: "grey",
+    color: "rgb(255, 246, 230)",
   },
   "04n": {
     icon: "CLOUDY",
-    color: "grey",
+    color: "rgb(255, 246, 230)",
   },
   "09d": {
     icon: "RAIN",
@@ -56,27 +56,27 @@ const weatherIcons = {
   },
   "11d": {
     icon: "WIND",
-    color: "yellow",
+    color: "red",
   },
   "11n": {
     icon: "WIND",
-    color: "yellow",
+    color: "red",
   },
   "13d": {
     icon: "SNOW",
-    color: "black",
+    color: "rgb(255, 246, 230)",
   },
   "13n": {
     icon: "SNOW",
-    color: "black",
+    color: "rgb(255, 246, 230)",
   },
   "50d": {
     icon: "FOG",
-    color: "blue",
+    color: "red",
   },
   "50n": {
     icon: "FOG",
-    color: "blue",
+    color: "red",
   },
 };
 
