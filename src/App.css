@@ -1,22 +1,27 @@
 .App {
+  max-width: fit-content;
   text-align: center;
-  margin: 50px;
+  margin: 50px auto;
   padding: 0px;
-  
+
   background-image: linear-gradient(
       172deg,
       rgba(0, 0, 0, 0.6) 0%,
-      rgb(0, 0, 0, 0.6) 100%
-    ),url("./Weather/media/Michelangelo.jpg");
+      rgb(0, 0, 0, 0) 100%
+    ),
+    url("./Weather/media/hopper.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  border: solid 25px rgb(67, 33, 5) ;
+  background-size: unset;
+  background-position: center center;
+  border: solid 25px rgb(67, 33, 5);
   border-top-color: rgb(104, 56, 16);
   border-left-color: rgb(104, 56, 16);
 }
 
-.container {height: fit-content;
-  border: solid 20px rgb(104, 56, 16) ;
- 
- border-top-color: rgb(67, 33, 5);
-  border-left-color: rgb(67, 33, 5);}
+.container {
+  height: fit-content;
+  border: solid 20px rgb(104, 56, 16);
+
+  border-top-color: rgb(67, 33, 5);
+  border-left-color: rgb(67, 33, 5);
+}

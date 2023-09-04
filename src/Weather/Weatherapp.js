@@ -38,7 +38,7 @@ export default function Weatherapp() {
     <form onSubmit={handleSubmit}>
       <input type="text" onChange={updateInput}></input>
       <br />
-      <button type="submit">search</button>
+      <button type="submit" className="searchButton">search</button>
     
     </form>
   );
@@ -67,7 +67,7 @@ export default function Weatherapp() {
     return (
       <div>
         <h1>Search your city</h1>
-        <div>{form}</div>
+        <div className="searchbar">{form}</div>
       </div>
     );
   }

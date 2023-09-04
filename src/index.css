@@ -5,7 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./Weather/media/wallpaper.jpg") ;
+  background-image: url("./Weather/media/wallpaper.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {
