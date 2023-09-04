@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css"
+import "./Footer.css";
 export default function Footer() {
   return (
     <p>
@@ -9,6 +9,7 @@ export default function Footer() {
         className="contactlink"
         title="personal linkedin profile"
         target="_blank"
+        rel="noreferrer"
       >
         Eva Nagengast
       </a>{" "}
@@ -18,6 +19,7 @@ export default function Footer() {
         className="gitHub"
         title="Git hub contact"
         target="_blank"
+        rel="noreferrer"
       >
         GitHub
       </a>
