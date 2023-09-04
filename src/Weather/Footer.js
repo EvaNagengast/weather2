@@ -1,9 +1,10 @@
 import React from "react";
+import { BsPostageHeart } from "react-icons/bs";
 import "./Footer.css";
 export default function Footer() {
   return (
     <p>
-      Coded with love by{" "}
+      Coded with <BsPostageHeart /> by{" "}
       <a
         href="https://www.linkedin.com/in/eva-nagengast-9b78b220a"
         className="contactlink"

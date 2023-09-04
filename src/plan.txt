@@ -3,11 +3,13 @@ added axios
 added react animated icons
 added react-icons
 added loader
-
+// react icons  https://react-icons.github.io/react-icons
+import { FaBeer } from 'react-icons/fa';
+ <h3> Lets go for a <BsPostageHeart />? 
 
 // react icons  https://react-icons.github.io/react-icons
 import { FaBeer } from 'react-icons/fa';
- <h3> Lets go for a <FaBeer />? 
+ <h3> Lets go for a <FaBeer  />? 
 
 
 //  react animated Icons

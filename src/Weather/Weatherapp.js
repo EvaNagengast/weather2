@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import City from "./City";
 import Temp from "./Temp";
 import Icon from "./Icon";
-import Footer from "./Footer"
+import Footer from "./Footer";
 
 import axios from "axios";
 
@@ -38,8 +38,9 @@ export default function Weatherapp() {
     <form onSubmit={handleSubmit}>
       <input type="text" onChange={updateInput}></input>
       <br />
-      <button type="submit" className="searchButton">search</button>
-    
+      <button type="submit" className="searchButton">
+        search
+      </button>
     </form>
   );
 
@@ -60,14 +61,16 @@ export default function Weatherapp() {
 
         <div className="text">text</div>
         <div className="forecast">forecast</div>
-        <div className="footer"><Footer/></div>
+        <div className="footer">
+          <Footer />
+        </div>
       </div>
     );
   } else {
     return (
-      <div>
+      <div className="Weatherapp">
         <h1>Search your city</h1>
-        <div className="searchbar">{form}</div>
+        <div>{form}</div>
       </div>
     );
   }
