@@ -1,14 +1,20 @@
-.Weatherapp h1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.citysearch h1 {
   color: #efe2c8;
   margin: 40px 60px;
 }
+.search {
+  display: inline-block;
+  padding-top: 40px;
+}
 button {
   display: inline-block;
+  font-size: 16px;
   margin: 30px;
-  border: 2px groove rgb(82, 53, 9);
-  background-color: #efe2c8;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Raleway", sans-serif;
 }
 input {
   background-color: #efe2c8;
@@ -56,4 +62,34 @@ input {
   background-color: rgb(0, 33, 200);
   grid-column: 1/4;
   grid-row: 7/8;
+}
+
+.cityUpdate button {
+  background-color:rgb(255, 246, 230);
+    border: 2px solid rgba(251, 239, 218, 0.167);
+    border-radius: 2px;
+    box-shadow: 0 0 6px 0 rgba(176, 170, 159, 0.395);
+}
+.cityUpdate button:hover {background-color:rgb(0, 33, 200);
+color: rgb(255, 246, 230);
+}
+
+.cityUpdate input {
+background-color: rgb(255, 246, 230);
+outline:#ccf5d2
+}
+.citysearch input {
+background-color: #90bb96;
+outline:#ccf5d2
+}
+
+.citysearch button {
+  background-color: #0a462e;
+  color: #147f54;
+    border:none;
+    box-shadow: 0 0 6px 0 rgba(0, 57, 37, 0.553);
+}
+.citysearch button:hover{
+  background-color: #106643;
+  color: #24b178;
 }

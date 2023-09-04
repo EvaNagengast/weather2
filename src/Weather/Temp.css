@@ -1,3 +1,20 @@
-.temp{
+.temp{ padding: 20px 0 0 0 ;
     font-size: 50px;
+}
+
+.temp button {
+ background-color: rgb(228, 3, 3);
+ border: none;
+  box-shadow: 0 0 6px 0 rgba(132, 0, 0, 0.395);
+  color: rgb(255, 246, 230);
+}
+
+.temp button:hover {
+ background-color:rgb(255, 246, 230) ;
+ 
+  box-shadow: 0 0 6px 0 rgba(132, 0, 0, 0.395);
+  color: rgb(228, 3, 3);
+}
+.temp .tempcontainer {
+    color: rgb(255, 246, 230);
 }

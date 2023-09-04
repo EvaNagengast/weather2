@@ -27,7 +27,7 @@ export default function Temp(props) {
   }
   return (
     <div className="temp">
-      <div>{temperature}</div>
+      <div className="tempcontainer">{temperature}</div>
 
       <div>
         <button onClick={setCelsius}>Celsius</button>

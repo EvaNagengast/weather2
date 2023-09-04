@@ -35,8 +35,8 @@ export default function Weatherapp() {
     setWeather(weatherResponse);
   }
   let form = (
-    <form onSubmit={handleSubmit}>
-      <input type="text" onChange={updateInput}></input>
+    <form onSubmit={handleSubmit} className="cityUpdate">
+      <input type="text" autoFocus  onChange={updateInput}></input>
       <br />
       <button type="submit" className="searchButton">
         search
@@ -68,7 +68,7 @@ export default function Weatherapp() {
     );
   } else {
     return (
-      <div className="Weatherapp">
+      <div className="citysearch">
         <h1>Search your city</h1>
         <div>{form}</div>
       </div>
