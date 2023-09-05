@@ -3,7 +3,7 @@ import City from "./City";
 import Temp from "./Temp";
 import Icon from "./Icon";
 import Footer from "./Footer";
-
+import Forecast from "./Forecast";
 import axios from "axios";
 
 import "./Weatherapp.css";
@@ -36,7 +36,7 @@ export default function Weatherapp() {
   }
   let form = (
     <form onSubmit={handleSubmit} className="cityUpdate">
-      <input type="text" autoFocus  onChange={updateInput}></input>
+      <input type="text" autoFocus onChange={updateInput}></input>
       <br />
       <button type="submit" className="searchButton">
         search
@@ -59,8 +59,10 @@ export default function Weatherapp() {
         </div>
         <div className="search">{form}</div>
 
-        <div className="text">text</div>
-        <div className="forecast">forecast</div>
+        <div className="text"></div>
+        <div className="forecast">
+          <Forecast info={weather} />
+        </div>
         <div className="footer">
           <Footer />
         </div>
